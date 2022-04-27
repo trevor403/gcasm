@@ -5,4 +5,5 @@
 xcuserdata/
 DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-/__pycache__
+__pycache__
+/lib/*[.so, .dylib, .dll]

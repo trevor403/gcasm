@@ -9,9 +9,3 @@ def assemble(insts, offset):
         else:
             out.append(inst(offset+i))
     return out
-
-def macro_imm32(reg, val):
-    out = []
-    out.append(lib._macro_loadImmediateShifted32bitLO(reg, val))
-    out.append(lib._macro_loadImmediateShifted32bitHI(reg, val))
-    return out
